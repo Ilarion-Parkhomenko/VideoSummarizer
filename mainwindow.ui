@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1368</width>
+    <height>949</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="maximumSize">
+    <size>
+     <width>1368</width>
+     <height>870</height>
+    </size>
+   </property>
+   <widget class="QPushButton" name="loadVideoButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Загрузить видео</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="muteButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>840</y>
+      <width>28</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::AudioVolumeHigh"/>
+    </property>
+   </widget>
+   <widget class="QSlider" name="volumeSlider">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>850</y>
+      <width>84</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playPauseButton">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>840</y>
+      <width>28</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::MediaPlaybackStart"/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rewindButton">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>840</y>
+      <width>51</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;&lt; 10s</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fastForwardButton">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>840</y>
+      <width>51</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>10s &gt;&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addBookmarkButton">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>840</y>
+      <width>121</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add Bookmark</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="bookmarkList">
+    <property name="geometry">
+     <rect>
+      <x>1330</x>
+      <y>0</y>
+      <width>41</width>
+      <height>811</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>1311</width>
+      <height>791</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout"/>
+   </widget>
+   <zorder>muteButton</zorder>
+   <zorder>volumeSlider</zorder>
+   <zorder>playPauseButton</zorder>
+   <zorder>loadVideoButton</zorder>
+   <zorder>rewindButton</zorder>
+   <zorder>fastForwardButton</zorder>
+   <zorder>addBookmarkButton</zorder>
+   <zorder>verticalLayoutWidget</zorder>
+   <zorder>bookmarkList</zorder>
+   <zorder>verticalLayoutWidget</zorder>
+   <zorder>verticalLayoutWidget</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1368</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
